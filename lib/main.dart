@@ -46,9 +46,9 @@ class HomePageItem extends StatefulWidget {
 }
 
 class HomePageItemState extends State<HomePageItem> {
-  Color pickerColor = Colors.black;
+  Color pickerColor = Color.fromARGB(255, 0, 0, 0);
   Color currentColor = Colors.black;
-  String rgbText = "";
+  String rgbText = "(0, 0, 0";
   void changeColor(Color color) {
     setState(() => pickerColor = color);
   }
